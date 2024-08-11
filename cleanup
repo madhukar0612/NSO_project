@@ -156,7 +156,7 @@ clean_up_securitygrps() {
 
 # Main script execution
 display_current_date_time
-echo "Starting deployment of $tag using $openrcfile for credentials."
+echo "Starting cleaning of $tag using $openrcfile for credentials."
 source "$openrcfile"
 
 # Call the cleanup functions
