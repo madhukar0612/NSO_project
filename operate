@@ -2,7 +2,8 @@
 
 rc_file=$1
 tag_name=$2
-publickey=$3
+sshkey=$3
+sshk=${sshkey%.pub}
 
 # Define variables
 def_network_name="$2_network"
