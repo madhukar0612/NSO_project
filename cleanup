@@ -162,8 +162,8 @@ source "$openrcfile"
 # Call the cleanup functions
 clean_up_servers
 clean_up_keypairs
-clean_up_floatips
 clean_up_viprt
+clean_up_floatips
 clean_up_subnets
 clean_up_routers
 clean_up_networks
