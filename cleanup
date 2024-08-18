@@ -10,6 +10,9 @@ openrcfile=$1
 tag=$2
 sshk=$3
 sshkey="${sshk}.pub"
+source $openrc_file
+chmod 600 "$sshk"
+chmod 600 "$sshkey"
 required_dev_servers=$(cat servers.conf)
 
 def_network="${tag}_network"
