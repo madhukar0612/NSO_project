@@ -8,7 +8,8 @@ display_current_date_time() {
 # Variables
 openrcfile=$1
 tag=$2
-ssh_key=$3
+sshk=$3
+sshkey="${sshk}.pub"
 required_dev_servers=$(cat servers.conf)
 
 def_network="${tag}_network"
