@@ -6,7 +6,7 @@ display_current_date_time() {
 }
 
 # Variables
-openrcfile=$1
+openrc_file=$1
 tag=$2
 sshk=$3
 sshkey="${sshk}.pub"
