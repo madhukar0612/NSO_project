@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rc_file=$1
+openrc_file=$1
 tag_name=$2
 sshk=$3
 sshkey="${sshk}.pub"
