@@ -22,7 +22,7 @@ hostsfile="hosts"
 run_status=0 ##ansible run status
 echo "Running Operation mode for tag: $tag_name using $rc_file for credentials"
 
-source "$rc_file"
+source "$openrc_file"
 chmod 600 "$sshk"
 chmod 600 "$sshkey"
 
